@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>PreferenceSpecifiers</key>
+	<array>
+		<dict>
+			<key>Title</key>
+			<string>Everlong v1
+Copyright (c) 2011-2012 San Diego Reader. All rights reserved.
+
+The following sets forth attribution notices for third party software that may be contained in portions of this product.
+
+-----
+
+HJCache
+created by Hunter and Johnson
+copyright 2009, 2010, 2011 Hunter and Johnson
+available at https://github.com/markofjohnson/HJCache
+
+Modifications copyright 2011 San Diego Reader.  All rights reserved.
+available at https://github.com/bmorton/HJCache
+
+-----
+
+RestKit
+created by Blake Watters and Two Toasters
+copyright 2009 Two Toasters
+available at https://github.com/RestKit/RestKit
+    
+-----
+    
+SSToolkit
+created by Sam Soffes
+available at https://github.com/samsoffes/sstoolkit
+
+Copyright (c) 2008-2011 Sam Soffes
+
+Permission is hereby granted, free of charge, to any person obtaining
+a copy of this software and associated documentation files (the
+"Software"), to deal in the Software without restriction, including
+without limitation the rights to use, copy, modify, merge, publish,
+distribute, sublicense, and/or sell copies of the Software, and to
+permit persons to whom the Software is furnished to do so, subject to
+the following conditions:
+
+The above copyright notice and this permission notice shall be
+included in all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND,
+EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF
+MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND
+NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE
+LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION
+OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION
+WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+
+-----
+
+Facebook iOS SDK
+copyright 2011 Facebook
+available at https://github.com/facebook/facebook-ios-sdk
+
+-----
+    
+JSONKit
+created by John Engelhart
+copyright 2011, John Engelhart
+https://github.com/johnezang/JSONKit
+    
+-----
+    
+Created by the team at 1703india:
+
+Chris Kelly
+Brian Morton
+Ryan Urbach
+Daniel Condomitti
+Robert Ross
+
+For support, contact contact@1703india.st
+
+                
+                
+                
+                
+                
+                
+                
+                
+                
+The cake is a lie.
+            </string>
+			<key>Type</key>
+			<string>PSGroupSpecifier</string>
+		</dict>
+	</array>
+	<key>StringsTable</key>
+	<string>Root</string>
+</dict>
+</plist>

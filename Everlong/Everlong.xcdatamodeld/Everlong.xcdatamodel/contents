@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model name="" userDefinedModelVersionIdentifier="Version 1.0" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="878" systemVersion="11C74" minimumToolsVersion="Automatic" macOSVersion="Automatic" iOSVersion="Automatic">
+    <entity name="ECPaymentProfile" representedClassName="ECPaymentProfile" syncable="YES">
+        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="paymentProfileID" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <attribute name="userID" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <relationship name="user" optional="YES" minCount="1" maxCount="1" deletionRule="Nullify" destinationEntity="ECUser" inverseName="paymentProfiles" inverseEntity="ECUser" syncable="YES"/>
+    </entity>
+    <entity name="ECTag" representedClassName="ECTag" syncable="YES">
+        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="tagID" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+    </entity>
+    <entity name="ECUser" representedClassName="ECUser" syncable="YES">
+        <attribute name="email" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="singleAccessToken" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="userID" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <relationship name="paymentProfiles" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="ECPaymentProfile" inverseName="user" inverseEntity="ECPaymentProfile"/>
+    </entity>
+    <elements>
+        <element name="ECPaymentProfile" positionX="160" positionY="192" width="128" height="75"/>
+        <element name="ECTag" positionX="160" positionY="192" width="128" height="75"/>
+        <element name="ECUser" positionX="160" positionY="192" width="128" height="120"/>
+    </elements>
+</model>
